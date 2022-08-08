@@ -12,3 +12,12 @@ Content-Type: application/json
   "name": "toe",
   "age": "5"
 }
+
+###
+
+PATCH http://localhost:3000/pets/1
+Content-Type: application/json
+
+{
+  "species": "runner"
+}
