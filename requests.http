@@ -21,3 +21,8 @@ Content-Type: application/json
 {
   "species": "runner"
 }
+
+
+###
+
+DELETE http://localhost:3000/pets/3
